@@ -1,7 +1,7 @@
 print('--- L1: Define decorator()')
 def decorator(var_i):
    print('--- L3: In decorator() -> var_i = {}'.format(var_i))
-   var_i = "_decorator"
+   var_i = "decorator"
    print('--- L5: In decorator() -> var_i = {}'.format(var_i))
 
    def _decorator(f):
